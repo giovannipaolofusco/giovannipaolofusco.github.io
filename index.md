@@ -5,6 +5,7 @@
 
 > *Dall'età di 15 anni creo contenuti digitali, gestisco community e supporto attività locali nella crescita online.*
 
+---
 
 <br>
 <a href="certificazioni" style="background-color: #24292e; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px;">📜 Certificazioni & Formazione</a>
