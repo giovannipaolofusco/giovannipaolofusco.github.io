@@ -5,11 +5,10 @@
 
 > *Dall'età di 15 anni creo contenuti digitali, gestisco community e supporto attività locali nella crescita online.*
 
-<br>
 
+<br>
 <a href="certificazioni" style="background-color: #24292e; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-right: 10px;">📜 Certificazioni & Formazione</a>
 <a href="progetti" style="background-color: #0366d6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">🚀 Digital Ecosystem & Progetti</a>
-
 </div>
 
 ---
