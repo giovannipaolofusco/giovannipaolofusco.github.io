@@ -1,19 +1,33 @@
-[← Torna alla Home](index.md)
+# Progetti & Ecosistema Digitale
 
-# 🚀 Digital Ecosystem & Progetti
+Una panoramica dei miei principali progetti di content creation, community management, educazione finanziaria, digital management e programmazione.
 
-* **Kairopy Team (Community Management)**  
-  Gestione integrale di un server Discord con oltre 460 membri. Ho progettato e strutturato l'intero ecosistema da zero (dicembre 2023), rendendolo operativo in soli tre mesi.
+## 🎥 Canali e Divulgazione
+* **Giovanni Paolo Fusco (Trading & Finanza)**  
+  Canale dedicato alla divulgazione finanziaria, analisi dei mercati, strutture di prezzo e mindset del trader.  
+  👉 [Visita il canale YouTube](https://www.youtube.com/@GiovanniPaoloFusco){:target="_blank"}
+
+* **Informatica Tech (Coding & Education)**  
+  Il mio primo progetto di content creation focalizzato sul linguaggio C++, algoritmi e problem solving in ambienti Windows e Linux.  
+  👉 [Visita il canale YouTube](https://www.youtube.com/@informaticatech9193){:target="_blank"}
+
+## 💬 Community & Server Management
+* **Kairos Team (Trading Community)**  
+  Server Discord con oltre 460 membri, progettato e strutturato da zero con canali tematici dedicati a formazione, exchange, broker e prop firm.  
+  *(Link alla community di riferimento)*
 
 * **Gioppy & Matte (Trading Community)**  
-  Spazi tematici dedicati all'educazione finanziaria e al supporto utenti.
+  Server Discord creato in collaborazione per la condivisione di materiale formativo e operazioni in tempo reale.  
+  👉 [Accedi alla Community Discord](https://discord.gg/Zr7xpBnEjq){:target="_blank"}
 
-* **YouTube: Giovanni Paolo Fusco (Trading & Finance)**  
-  <a href="https://www.youtube.com/@giovannipaolofusco" target="_blank">Visita il canale YouTube Trading & Finance</a>
+## ✍️ Editoria & Presenza Digitale
+* **Blog Personale (WordPress)**  
+  Spazio editoriale attivo per oltre 4 anni, archivio centrale di competenze che spaziano dall'informatica alla programmazione fino agli investimenti.  
+  👉 [Visita il Blog](https://giovannipaolofusco.wordpress.com/){:target="_blank"}
 
-* **YouTube: Informatica Tech (Coding & Education)**  
-  Il mio primo progetto di content creation, nato per condividere la passione per la programmazione. Ho creato un percorso didattico focalizzato sul linguaggio C++, risolvendo esercizi logici e matematici per aiutare altri studenti a padroneggiare le basi dello sviluppo software. Ho approfondito l'uso degli ambienti di sviluppo operando sia su Windows che su Kali Linux.  
-  <a href="https://www.youtube.com/@informaticatech" target="_blank">Visita il canale Informatica Tech</a>
+* **Digital Ecosystem & Social Management (Ristorante N'Dino)**  
+  Gestione integrata della presenza digitale e della reputazione online (Instagram, Facebook, Google, TripAdvisor) coordinando la comunicazione e l'esperienza in loco.  
+  👉 [Visita il profilo Instagram](https://www.instagram.com/ristorantendino/){:target="_blank"}
 
-* **Blog Personale**  
-  Spazio di condivisione su informatica, programmazione (C++/Python) e strategie finanziarie.
+---
+[⬅️ Torna alla Home](index.md)
