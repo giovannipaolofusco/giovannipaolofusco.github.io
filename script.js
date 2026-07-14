@@ -117,7 +117,7 @@ if (credlyContainer) {
   async function fetchCredlyBadges() {
     try {
       credlyContainer.innerHTML = `<p>${credlyMessages.loading}</p>`;
-      const response = await fetch('https://api.allorigins.win/raw?url=' + encodeURIComponent('https://www.credly.com/users/giovanni-paolo-fusco/badges.json'));
+      const response = await fetch('/badges.json');
       
       if (!response.ok) {
         throw new Error('Network error');
