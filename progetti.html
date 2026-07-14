@@ -6,17 +6,15 @@
   <title>Progetti | Giovanni Paolo Fusco</title>
   <link rel="icon" href="/logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="/style.css">
-  
-  <!-- Script CookieYes -->
-  <!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/YOUR_SITE_KEY/script.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
 
   <!-- Google Analytics 4 -->
-  <script type="text/plain" data-cookieyes="cookieyes-analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-  <script type="text/plain" data-cookieyes="cookieyes-analytics">
+  <script type="text/plain" data-category="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-D3HQ9E6RQF"></script>
+  <script type="text/plain" data-category="analytics">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXX');
+    gtag('config', 'G-D3HQ9E6RQF');
   </script>
 </head>
 <body>
@@ -29,6 +27,11 @@
       <a href="/index.html">Home</a>
       <a href="/progetti.html" class="active">Progetti</a>
       <a href="/certificazioni.html">Certificazioni</a>
+      <div class="lang-selector">
+        <a href="/progetti.html" class="lang-btn active">IT</a>
+        <span class="lang-separator">|</span>
+        <a href="/en/progetti.html" class="lang-btn">EN</a>
+      </div>
       <button id="theme-toggle" aria-label="Toggle dark mode"></button>
     </div>
   </nav>
@@ -82,5 +85,6 @@
   </footer>
 
   <script src="/script.js"></script>
+  <script type="module" src="/cookieconsent-config.js"></script>
 </body>
 </html>

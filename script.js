@@ -46,12 +46,23 @@ if (themeToggle) {
 const githubContainer = document.getElementById('github-projects-container');
 
 if (githubContainer) {
+  const currentLang = document.documentElement.lang || 'it';
+  const isEn = currentLang === 'en';
+
+  const messages = {
+    loading: isEn ? 'Loading repositories...' : 'Caricamento repository in corso...',
+    noDesc: isEn ? 'No description available.' : 'Nessuna descrizione disponibile.',
+    viewBtn: isEn ? 'View on GitHub' : 'Vedi su GitHub',
+    noRepos: isEn ? 'No public repositories found.' : 'Nessun repository pubblico trovato.',
+    error: isEn ? 'Unable to load repositories at this time.' : 'Impossibile caricare i repository in questo momento.'
+  };
+
   async function fetchGitHubProjects() {
     try {
-      githubContainer.innerHTML = '<p>Caricamento repository in corso...</p>';
-      const response = await fetch('https://api.github.com/users/Gioppy-Linux/repos?sort=updated');
+      githubContainer.innerHTML = `<p>${messages.loading}</p>`;
+      const response = await fetch('https://api.github.com/users/giovannipaolofusco/repos?sort=updated');
       if (!response.ok) {
-        throw new Error('Errore nella rete');
+        throw new Error('Network error');
       }
       const repos = await response.json();
       
@@ -61,7 +72,7 @@ if (githubContainer) {
       githubContainer.innerHTML = '';
       
       if (recentRepos.length === 0) {
-        githubContainer.innerHTML = '<p>Nessun repository pubblico trovato.</p>';
+        githubContainer.innerHTML = `<p>${messages.noRepos}</p>`;
         return;
       }
 
@@ -70,20 +81,20 @@ if (githubContainer) {
         repoCard.className = 'card';
         
         // Truncate description
-        let desc = repo.description || 'Nessuna descrizione disponibile.';
+        let desc = repo.description || messages.noDesc;
         if (desc.length > 100) desc = desc.substring(0, 100) + '...';
 
         repoCard.innerHTML = `
           <h3>${repo.name}</h3>
           <p>${desc}</p>
-          <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer" class="card-link">Vedi su GitHub</a>
+          <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer" class="card-link">${messages.viewBtn}</a>
         `;
         
         githubContainer.appendChild(repoCard);
       });
     } catch (error) {
-      console.error('Errore durante il recupero dei repository GitHub:', error);
-      githubContainer.innerHTML = '<p>Impossibile caricare i repository in questo momento.</p>';
+      console.error('Error fetching GitHub repositories:', error);
+      githubContainer.innerHTML = `<p>${messages.error}</p>`;
     }
   }
 

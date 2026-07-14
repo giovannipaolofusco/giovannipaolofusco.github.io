@@ -6,17 +6,15 @@
   <title>Privacy & Cookie Policy | Giovanni Paolo Fusco</title>
   <link rel="icon" href="/logo.jpg" type="image/jpeg">
   <link rel="stylesheet" href="/style.css">
-  
-  <!-- Script CookieYes -->
-  <!-- <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/YOUR_SITE_KEY/script.js"></script> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
 
   <!-- Google Analytics 4 -->
-  <script type="text/plain" data-cookieyes="cookieyes-analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
-  <script type="text/plain" data-cookieyes="cookieyes-analytics">
+  <script type="text/plain" data-category="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-D3HQ9E6RQF"></script>
+  <script type="text/plain" data-category="analytics">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-XXXXXXX');
+    gtag('config', 'G-D3HQ9E6RQF');
   </script>
 </head>
 <body>
@@ -29,6 +27,11 @@
       <a href="/index.html">Home</a>
       <a href="/progetti.html">Progetti</a>
       <a href="/certificazioni.html">Certificazioni</a>
+      <div class="lang-selector">
+        <a href="/privacy.html" class="lang-btn active">IT</a>
+        <span class="lang-separator">|</span>
+        <a href="/en/privacy.html" class="lang-btn">EN</a>
+      </div>
       <button id="theme-toggle" aria-label="Toggle dark mode"></button>
     </div>
   </nav>
@@ -48,12 +51,31 @@
     <p>Questo sito fa uso di Google Analytics 4, un servizio di analisi web fornito da Google Ireland Limited. I dati raccolti (come pagine visitate, tempo trascorso, dispositivo utilizzato) sono strettamente necessari ai fini statistici per comprendere l'andamento del sito. I dati IP vengono anonimizzati di default da Google Analytics 4, rendendo l'informazione statistica raccolta aggregata e non direttamente ricollegabile all'utente specifico.</p>
 
     <h2>4. Cookie Policy e Gestione Preferenze</h2>
-    <p>Il sito utilizza cookie tecnici strettamente necessari al funzionamento del portale e cookie analitici di terze parti (Google Analytics 4). L'utente ha la facoltà di prestare o negare il proprio consenso all'utilizzo dei cookie statistici e analitici tramite l'apposito banner fornito dalla piattaforma <strong>CookieYes</strong>, che blocca preventivamente i tracker finché non viene rilasciato il consenso esplicito.</p>
+    <p>Il sito utilizza cookie tecnici strettamente necessari al funzionamento del portale e cookie analitici di terze parti (Google Analytics 4). L'utente ha la facoltà di prestare o negare il proprio consenso all'utilizzo dei cookie statistici e analitici tramite l'apposito banner fornito da <strong>CookieConsent v3</strong>, che blocca preventivamente i tracker finché non viene rilasciato il consenso esplicito.</p>
     <p>L'utente può modificare in qualsiasi momento le preferenze sui cookie riaprendo il pannello di controllo in basso sullo schermo o cancellando la cache del proprio browser.</p>
 
     <h2>5. Diritti dell'Utente (GDPR)</h2>
     <p>In base agli art. 15-22 del GDPR, l'utente ha il diritto di chiedere al titolare del trattamento l'accesso ai propri dati personali, la rettifica, la cancellazione degli stessi o la limitazione del trattamento. Data la natura statica del sito e l'uso esclusivo di cookie statistici anonimizzati, questo portale non conserva database interni con nomi o indirizzi diretti degli utenti.</p>
     <p>Per eventuali segnalazioni, dubbi o per esercitare i tuoi diritti, puoi scrivermi a: <a href="mailto:giovannipaolofusco3@gmail.com">giovannipaolofusco3@gmail.com</a>.</p>
+
+    <h2>6. Conservazione dei Dati e Trasferimento Extra-UE</h2>
+    <p>Poiché questo sito è ospitato tramite la piattaforma GitHub Pages di GitHub, Inc., i dati di navigazione generici (file di log del server) potrebbero essere ospitati su server dislocati al di fuori dell'Unione Europea, in particolare negli Stati Uniti. GitHub, Inc. garantisce misure adeguate di sicurezza e protezione dei dati aderendo alle clausole contrattuali standard approvate dalla Commissione Europea o ad altri meccanismi di trasferimento autorizzati ai sensi degli artt. 44 e seguenti del GDPR.</p>
+    <p>I dati raccolti tramite Google Analytics 4 vengono conservati secondo le impostazioni predefinite di Google per un periodo non superiore a 14 mesi, dopodiché vengono cancellati o anonimizzati in via definitiva.</p>
+
+    <h2>7. Diritto di Reclamo</h2>
+    <p>Se ritieni che il trattamento dei tuoi dati personali avvenga in violazione di quanto previsto dal GDPR, hai il diritto di proporre reclamo all'Autorità Garante per la Protezione dei Dati Personali italiana (Piazza Venezia n. 11, 00187 Roma - www.garanteprivacy.it), o all'autorità di controllo dello Stato membro dell'UE in cui risiedi o lavori abitualmente.</p>
+
+    <h2>8. Informativa Estesa sui Cookie</h2>
+    <p>I cookie sono stringhe di testo di piccole dimensioni che i siti visitati dall'utente inviano al suo terminale, dove vengono memorizzati per essere poi ritrasmessi agli stessi siti alla successiva visita del medesimo utente.</p>
+    <p>Questo sito utilizza le seguenti tipologie di cookie:</p>
+    <ul>
+      <li><strong>Cookie Tecnici e di Sessione:</strong> Necessari al corretto funzionamento del sito, ad esempio per ricordare la preferenza sul tema (scuro/chiaro) tramite localStorage o per salvare lo stato del consenso ai cookie tramite lo strumento CookieConsent. Non necessitano del consenso preventivo dell'utente.</li>
+      <li><strong>Cookie di Terze Parti (Statistici):</strong> Google Analytics 4 viene utilizzato con IP anonimizzato e solo in seguito al tuo consenso esplicito manifestato tramite il banner. Questi cookie consentono di analizzare l'utilizzo del sito per migliorarne le funzionalità.</li>
+    </ul>
+    
+    <div style="margin-top: 2rem;">
+      <button type="button" data-cc="show-preferencesModal" class="btn btn-secondary">🛠️ Gestisci preferenze cookie</button>
+    </div>
   </main>
 
   <footer>
@@ -62,5 +84,6 @@
   </footer>
 
   <script src="/script.js"></script>
+  <script type="module" src="/cookieconsent-config.js"></script>
 </body>
 </html>
