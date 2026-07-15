@@ -1,133 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Certificazioni | Giovanni Paolo Fusco</title>
-  <link rel="icon" href="/logo.jpg" type="image/jpeg">
-  <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificazioni | Giovanni Paolo Fusco</title>
+    <link rel="icon" href="/logo.jpg" type="image/jpeg" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css"
+    />
 
-  <!-- Google Analytics 4 -->
-  <script type="text/plain" data-category="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-D3HQ9E6RQF"></script>
-  <script type="text/plain" data-category="analytics">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-D3HQ9E6RQF');
-  </script>
-</head>
-<body>
-  <nav>
-    <a href="/index.html" class="nav-left">
-      <img src="/logo.jpg" alt="Logo" class="nav-logo" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2VlZSIvPjwvc3ZnPg=='">
-      <span class="nav-title">Giovanni Paolo Fusco</span>
-    </a>
-    <div class="nav-links">
-      <a href="/index.html">Home</a>
-      <a href="/progetti.html">Progetti</a>
-      <a href="/certificazioni.html" class="active">Certificazioni</a>
-      <div class="lang-selector">
-        <a href="/certificazioni.html" class="lang-btn active">IT</a>
-        <span class="lang-separator">|</span>
-        <a href="/en/certificazioni.html" class="lang-btn">EN</a>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DZV6MBTHN0"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-DZV6MBTHN0");
+    </script>
+  </head>
+  <body>
+    <nav>
+      <a href="/index.html" class="nav-left">
+        <img
+          src="/logo.jpg"
+          alt="Logo"
+          class="nav-logo"
+          onerror="
+            this.src =
+              'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0iI2VlZSIvPjwvc3ZnPg=='
+          "
+        />
+        <span class="nav-title">Giovanni Paolo Fusco</span>
+      </a>
+      <div class="nav-links">
+        <a href="/index.html">Home</a>
+        <a href="/progetti.html">Progetti</a>
+        <a href="/certificazioni.html" class="active">Certificazioni</a>
+        <div class="lang-selector">
+          <a href="/certificazioni.html" class="lang-btn active">IT</a>
+          <span class="lang-separator">|</span>
+          <a href="/en/certificazioni.html" class="lang-btn">EN</a>
+        </div>
+        <button id="theme-toggle" aria-label="Toggle dark mode"></button>
       </div>
-      <button id="theme-toggle" aria-label="Toggle dark mode"></button>
-    </div>
-  </nav>
+    </nav>
 
-  <main>
-    <h1>📜 Certificazioni & Formazione</h1>
-    <p style="margin-bottom: 2rem;">
-      Il mio percorso formativo e le certificazioni professionali ottenute.
-    </p>
-    <p style="margin-bottom: 1rem;">
-      <a href="https://www.credly.com/users/giovanni-paolo-fusco" target="_blank" rel="noopener noreferrer">Visita il mio profilo Credly</a>
-    </p>
-    
-    <div id="credly-badges-container" class="grid" style="margin-top: 0;"></div>
+    <main>
+      <h1>📜 Certificazioni & Formazione</h1>
+      <p style="margin-bottom: 2rem">
+        Il mio percorso formativo e le certificazioni professionali ottenute.
+      </p>
+      <p style="margin-bottom: 1rem">
+        <a
+          href="https://www.credly.com/users/giovanni-paolo-fusco"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Visita il mio profilo Credly</a
+        >
+      </p>
 
-    <div style="margin-top: 2rem;">
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">AI Fundamentals – Google</span>
-          <span class="list-item-date">2026</span>
+      <div
+        id="credly-badges-container"
+        class="grid"
+        style="margin-top: 0"
+      ></div>
+
+      <div style="margin-top: 2rem">
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title">AI Fundamentals – Google</span>
+            <span class="list-item-date">2026</span>
+          </div>
+          <div class="list-item-links">
+            <a
+              href="/file/Course%20Google%20-%20AI%20Fundamentals.pdf"
+              target="_blank"
+              >Visualizza Certificato</a
+            >
+          </div>
         </div>
-        <div class="list-item-links">
-          <a href="/file/Course%20Google%20-%20AI%20Fundamentals.pdf" target="_blank">Visualizza Certificato</a>
+
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title"
+              >Programmatore Python – UniNA Federico II</span
+            >
+            <span class="list-item-date">2026</span>
+          </div>
+          <div class="list-item-links">
+            <a
+              href="/file/Programmazione%20in%20Python%2029-05-2026.pdf"
+              target="_blank"
+              >Visualizza Certificato</a
+            >
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title">Programmatore Python – TRIO</span>
+            <span class="list-item-date">2026</span>
+          </div>
+          <div class="list-item-links">
+            <a
+              href="/file/TRIO%20Programmazione%20in%20Python%2017-03-2026.pdf"
+              target="_blank"
+              >Visualizza Certificato</a
+            >
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title">ICDL IT Security – TRIO</span>
+            <span class="list-item-date">2026</span>
+          </div>
+          <div class="list-item-links">
+            <a
+              href="/file/TRIO%20ICDL%20IT%20Security%2022-03-2026.pdf"
+              target="_blank"
+              >Visualizza Certificato</a
+            >
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title"
+              >Spec. Avanzata in Didattica e AI – UniNA</span
+            >
+            <span class="list-item-date">2025</span>
+          </div>
+          <div class="list-item-links">
+            <a
+              href="/file/Insegnare%20con%20l_AI_%20Progettazione%2021-11-2025.pdf"
+              target="_blank"
+              >Progettazione</a
+            >
+            <a
+              href="/file/Insegnare%20con%20l_AI_%20Strumenti%2018-11-2025.pdf"
+              target="_blank"
+              >Strumenti</a
+            >
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title"
+              >Personal Finance – Starting Finance</span
+            >
+            <span class="list-item-date">2025</span>
+          </div>
+          <div class="list-item-links">
+            <a
+              href="/file/Starting%20Finance%20-%20Personale%20Finance%2020-11-2025.pdf"
+              target="_blank"
+              >Visualizza Certificato</a
+            >
+          </div>
+        </div>
+
+        <div class="list-item">
+          <div class="list-item-header">
+            <span class="list-item-title"
+              >Diploma Informatica e Telecomunicazioni</span
+            >
+            <span class="list-item-date">2019-2024</span>
+          </div>
+          <p style="margin-top: 0.5rem; margin-bottom: 0; font-size: 0.9rem">
+            Voto: 73/100
+          </p>
+          <div class="list-item-links">
+            <a href="/file/Diploma%20Scuola%20Superiore.pdf" target="_blank"
+              >Visualizza Diploma</a
+            >
+          </div>
         </div>
       </div>
 
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">Programmatore Python – UniNA Federico II</span>
-          <span class="list-item-date">2026</span>
-        </div>
-        <div class="list-item-links">
-          <a href="/file/Programmazione%20in%20Python%2029-05-2026.pdf" target="_blank">Visualizza Certificato</a>
-        </div>
+      <div style="margin-top: 3rem">
+        <h2>Badge Moduli</h2>
+        <div
+          id="credly-badges-modules"
+          class="grid"
+          style="margin-top: 1rem"
+        ></div>
       </div>
+    </main>
 
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">Programmatore Python – TRIO</span>
-          <span class="list-item-date">2026</span>
-        </div>
-        <div class="list-item-links">
-          <a href="/file/TRIO%20Programmazione%20in%20Python%2017-03-2026.pdf" target="_blank">Visualizza Certificato</a>
-        </div>
-      </div>
+    <footer>
+      <p>&copy; 2026 Giovanni Paolo Fusco. Tutti i diritti riservati.</p>
+      <p><a href="/privacy.html">Privacy & Cookie Policy</a></p>
+    </footer>
 
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">ICDL IT Security – TRIO</span>
-          <span class="list-item-date">2026</span>
-        </div>
-        <div class="list-item-links">
-          <a href="/file/TRIO%20ICDL%20IT%20Security%2022-03-2026.pdf" target="_blank">Visualizza Certificato</a>
-        </div>
-      </div>
-
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">Spec. Avanzata in Didattica e AI – UniNA</span>
-          <span class="list-item-date">2025</span>
-        </div>
-        <div class="list-item-links">
-          <a href="/file/Insegnare%20con%20l_AI_%20Progettazione%2021-11-2025.pdf" target="_blank">Progettazione</a>
-          <a href="/file/Insegnare%20con%20l_AI_%20Strumenti%2018-11-2025.pdf" target="_blank">Strumenti</a>
-        </div>
-      </div>
-
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">Personal Finance – Starting Finance</span>
-          <span class="list-item-date">2025</span>
-        </div>
-        <div class="list-item-links">
-          <a href="/file/Starting%20Finance%20-%20Personale%20Finance%2020-11-2025.pdf" target="_blank">Visualizza Certificato</a>
-        </div>
-      </div>
-
-      <div class="list-item">
-        <div class="list-item-header">
-          <span class="list-item-title">Diploma Informatica e Telecomunicazioni</span>
-          <span class="list-item-date">2019-2024</span>
-        </div>
-        <p style="margin-top: 0.5rem; margin-bottom: 0; font-size: 0.9rem;">Voto: 73/100</p>
-        <div class="list-item-links">
-          <a href="/file/Diploma%20Scuola%20Superiore.pdf" target="_blank">Visualizza Diploma</a>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  <footer>
-    <p>&copy; 2026 Giovanni Paolo Fusco. Tutti i diritti riservati.</p>
-    <p><a href="/privacy.html">Privacy & Cookie Policy</a></p>
-  </footer>
-
-  <script src="/script.js"></script>
-  <script type="module" src="/cookieconsent-config.js"></script>
-</body>
+    <script src="/script.js"></script>
+    <script type="module" src="/cookieconsent-config.js"></script>
+  </body>
 </html>

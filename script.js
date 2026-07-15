@@ -133,6 +133,8 @@ if (credlyContainer) {
       }
 
       credlyContainer.innerHTML = '';
+      const credlyModulesContainer = document.getElementById('credly-badges-modules');
+      if (credlyModulesContainer) credlyModulesContainer.innerHTML = '';
       
       if (badgesArray.length === 0) {
         credlyContainer.innerHTML = `<p>${credlyMessages.noBadges}</p>`;
@@ -166,7 +168,13 @@ if (credlyContainer) {
           ${formattedDate ? `<p class="credly-date">${formattedDate}</p>` : ''}
         `;
         
-        credlyContainer.appendChild(badgeCard);
+        const isModule = title.toLowerCase().includes('google ai for') || title.toLowerCase().includes('google ai fundamentals');
+        
+        if (isModule && credlyModulesContainer) {
+          credlyModulesContainer.appendChild(badgeCard);
+        } else {
+          credlyContainer.appendChild(badgeCard);
+        }
       });
     } catch (error) {
       console.error('Error fetching Credly badges:', error);
