@@ -66,8 +66,8 @@ if (githubContainer) {
       }
       const repos = await response.json();
       
-      // Filter out forks if needed, and slice first 4
-      const recentRepos = repos.filter(repo => !repo.fork).slice(0, 4);
+      // Filter out forks if needed to show all public projects
+      const recentRepos = repos.filter(repo => !repo.fork);
       
       githubContainer.innerHTML = '';
       
