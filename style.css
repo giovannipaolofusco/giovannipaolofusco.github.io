@@ -1,8 +1,8 @@
-/* style.css */
+/* style.css - Foglio di Stile Principale */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 :root {
-  /* Light Theme Variables (Editorial Aesthetic) */
+  /* Variabili del Tema Chiaro (Estetica Editoriale) */
   --bg-color: #ffffff;
   --text-primary: #000000;
   --text-secondary: #666666;
@@ -18,7 +18,7 @@
 }
 
 [data-theme='dark'] {
-  /* Dark Theme Variables (Editorial Aesthetic) */
+  /* Variabili del Tema Scuro (Estetica Editoriale) */
   --bg-color: #0a0a0a;
   --text-primary: #ededed;
   --text-secondary: #a0a0a0;
@@ -57,7 +57,7 @@ a:hover {
   color: var(--text-primary);
 }
 
-/* Navbar */
+/* Stili della Barra di Navigazione (Navbar) */
 nav {
   position: fixed;
   top: 0;
@@ -137,7 +137,7 @@ nav {
   border-color: var(--text-primary);
 }
 
-/* Layout */
+/* Impaginazione Generale e Contenitore Principale (Layout) */
 main {
   margin-top: 80px; /* offset for nav */
   padding: 40px;
@@ -150,7 +150,7 @@ main {
   flex-direction: column;
 }
 
-/* Typography */
+/* Stili del Testo (Tipografia) */
 h1 {
   font-size: clamp(40px, 8vw, 72px);
   font-weight: 800;
@@ -183,7 +183,7 @@ p {
   line-height: 1.5;
 }
 
-/* Section labels */
+/* Etichette delle Sezioni */
 .section-label {
   font-size: 11px;
   text-transform: uppercase;
@@ -195,7 +195,7 @@ p {
   margin-top: 40px;
 }
 
-/* Buttons */
+/* Stili dei Pulsanti */
 .btn-container {
   display: flex;
   gap: 16px;
@@ -239,7 +239,7 @@ p {
   transform: translateY(-1px);
 }
 
-/* Contact Info */
+/* Sezione Informazioni di Contatto */
 .contact-info {
   margin-top: 48px;
   padding-top: 32px;
@@ -269,7 +269,7 @@ p {
   user-select: none;
 }
 
-/* Cards (Grid) */
+/* Griglia e Schede Progetti (Cards) */
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -337,7 +337,7 @@ p {
   color: var(--text-primary);
 }
 
-/* Credly Badges */
+/* Stili dei Badge Credly */
 a.card-credly {
   background-color: transparent;
   border: 1px solid var(--border-color);
@@ -388,7 +388,7 @@ a.card-credly:hover {
   color: var(--text-secondary);
 }
 
-/* List Items (Certifications) */
+/* Elementi di Lista (Certificazioni e Formazione) */
 .list-item {
   display: flex;
   flex-direction: column;
@@ -438,7 +438,7 @@ a.card-credly:hover {
   color: var(--text-primary);
 }
 
-/* Footer */
+/* Piè di Pagina (Footer) */
 footer {
   margin-top: auto;
   padding: 24px 40px;
@@ -473,14 +473,14 @@ footer a:hover {
   text-decoration-color: var(--text-primary);
 }
 
-/* Icons */
+/* Stili delle Icone SVG */
 svg {
   width: 16px;
   height: 16px;
   fill: currentColor;
 }
 
-/* Mobile Adjustments */
+/* Adattamenti per Dispositivi Mobili (Responsive Design) */
 @media (max-width: 640px) {
   nav {
     padding: 0 20px;
@@ -505,7 +505,7 @@ svg {
   }
 }
 
-/* Language Selector styling */
+/* Stili del Selettore di Lingua */
 .lang-selector {
   display: flex;
   align-items: center;

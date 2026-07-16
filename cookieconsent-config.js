@@ -1,6 +1,9 @@
+// Importa lo script del cookie consent dal CDN
 import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.umd.js';
 
+// Inizializza e configura il banner dei cookie
 CookieConsent.run({
+  // Impostazioni per l'interfaccia utente del banner (layout e posizione)
   guiOptions: {
     consentModal: {
       layout: 'box',
@@ -15,12 +18,14 @@ CookieConsent.run({
       flipButtons: false
     }
   },
+  // Definisce le categorie dei cookie (necessari, analitici, ecc.)
   categories: {
     necessary: {
       readOnly: true
     },
     analytics: {}
   },
+  // Impostazioni per le lingue e le traduzioni del banner
   language: {
     default: 'it',
     autoDetect: 'document',

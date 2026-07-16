@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="it">
+  <!-- Inizio tag HEAD: contiene i metadati, il titolo, le icone e i link ai fogli di stile -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +14,7 @@
       href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css"
     />
 
+    <!-- Script per Google Analytics 4 (statistiche) -->
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -29,6 +31,7 @@
     </script>
   </head>
   <body>
+    <!-- Inizio NAVBAR: barra di navigazione con logo, link alle pagine e toggle della dark mode -->
     <nav>
       <a href="/index.html" class="nav-left">
         <img
@@ -55,6 +58,7 @@
       </div>
     </nav>
 
+    <!-- Inizio MAIN: contenuto principale della pagina -->
     <main>
       <h1>Progetti & Ecosistema Digitale</h1>
       <p>
@@ -62,6 +66,7 @@
         management, educazione finanziaria e programmazione.
       </p>
 
+      <!-- Griglia dei progetti principali (YouTube, Community, Blog, ecc.) -->
       <div class="grid">
         <div class="card">
           <h3>Giovanni Paolo Fusco <span class="project-year">2024</span></h3>
@@ -129,17 +134,20 @@
         </div>
       </div>
 
+      <!-- Sezione GitHub popolata dinamicamente da JavaScript tramite l'API -->
       <h2>I miei script e codici (GitHub)</h2>
       <div class="grid" id="github-projects-container">
         <!-- I repository GitHub verranno iniettati qui via JavaScript -->
       </div>
     </main>
 
+    <!-- Inizio FOOTER: piè di pagina con copyright e link alla privacy policy -->
     <footer>
       <p>&copy; 2026 Giovanni Paolo Fusco. Tutti i diritti riservati.</p>
       <p><a href="/privacy.html">Privacy & Cookie Policy</a></p>
     </footer>
 
+    <!-- Inclusione degli script JavaScript per la logica del sito e il banner dei cookie -->
     <script src="/script.js"></script>
     <script type="module" src="/cookieconsent-config.js"></script>
   </body>
